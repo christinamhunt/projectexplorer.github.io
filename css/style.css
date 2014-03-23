@@ -108,6 +108,34 @@ footer ul {
     list-style-type: none;
 }
 
+footer nav {
+    width:960px;
+    font-size::14px;
+    text-align:center;
+    list-style:none;
+}
+
+footer nav li {
+    display:inline-block;
+    color:white;
+    background-color:#00FF00;
+    text-decoration:none;
+    padding:5px;
+}
+
+footer li:hover,a:focus {
+    color:#000000;
+    text-decoration:none;
+    background-color:#FD5F00;
+}
+
+footer nav a {
+    width:960px;
+    font-size:10px;
+    text-align:center;
+    list-style:none;
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
