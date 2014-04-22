@@ -109,7 +109,7 @@ footer ul {
 }
 
 footer nav {
-    width:960px;
+    max-width:100%;
     font-size::14px;
     text-align:center;
     list-style:none;
@@ -127,14 +127,28 @@ footer li:hover,a:focus {
     color:#000000;
     text-decoration:none;
     background-color:#FD5F00;
+    text-align:center;
 }
 
 footer nav a {
-    width:960px;
+    max-width:100%;
+    display:inline-block;
+    padding:5px;
     font-size:10px;
     text-align:center;
     list-style:none;
 }
+
+footer nav p {
+    line-height:-1px;
+    font-size:10px;
+    text-align:center;
+}
+
+
+
+
+
 
 .wrapper {
     margin: 0 auto;
